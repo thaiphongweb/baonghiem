@@ -1,0 +1,47 @@
+/*  BREAK POINTS
+----CSS of responsive------*/
+
+/* PC, Laptop: >= 1024px
+   Tablet:    >= 740px and < 1024px
+    Phone:     < 740px
+*/
+
+/* PC, Laptop */
+@media (min-width: 1024px) {}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {}
+
+/* Phone */
+@media (max-width: 740px) {
+   #city p {
+      margin-top: 0px;
+      font-size: 18px;
+   }
+
+   .picture-items {
+      display: grid;
+      grid-template-columns: auto;
+      justify-items: center;
+      text-align: center;
+      row-gap: 20px;
+   }
+
+   .picture-items img {
+      width: 50%;
+      height: 360px;
+      box-shadow: 10px 10px #cde675;
+      border: 4px dashed #f73636;
+   }
+
+   .row-showing {
+      display: block;
+      justify-items: center;
+      align-items: center;
+      flex-wrap: wrap;
+   }
+
+   .picture-items-box {
+      width: 80%;
+   }
+}
