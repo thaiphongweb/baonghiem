@@ -364,7 +364,7 @@ li a:hover {
 button{
   position: fixed;  
   right: 6px;
-  bottom: 80px;
+  bottom: 20px;
   background: #e1a53d;
   border: none;
   border-radius: 50%;
